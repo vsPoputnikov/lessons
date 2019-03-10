@@ -9,7 +9,7 @@ public class Hw1_2 {
         length = 25; // Длина грядки
         width = 15; // Ширина грядки
         s *= 100;
-        System.out.printf("Оставшаяся площадь = %.2f м2", (s % (length * width)));
+        System.out.printf("Оставшаяся площадь = %f м2", (s % (length * width)));
 
     }
 }
