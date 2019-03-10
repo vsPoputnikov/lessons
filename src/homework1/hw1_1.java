@@ -3,7 +3,7 @@ package homework1;
 public class hw1_1 {
     public static void main(String[] args) {
         int length, width, height;
-        length = 2;
+        length = 3;
         width = 3;
         height = 4;
         double s = (length*width + length*height + width*height)*2;
