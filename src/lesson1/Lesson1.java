@@ -1,6 +1,6 @@
 package lesson1;
 
-       public class lesson1 {
+       public class Lesson1 {
 //     Точка входа
             // Однострочный комментарий
    /*
