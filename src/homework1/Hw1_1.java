@@ -1,13 +1,18 @@
 package homework1;
 
+import java.util.Random;
+
 public class Hw1_1 {
     public static void main(String[] args) {
+        final Random random = new Random();
         int length, width, height; // Три измерения прямоугольного параллелограмма
-        length = 3;//длина
-        width = 3;//ширина
-        height = 4;//высота
+        length = random.nextInt(10)+1;//длина
+        width = random.nextInt(10)+1;//ширина
+        height = random.nextInt(10)+1;//высота
         double s = (length*width + length*height + width*height)*2; // Площадь поверхности
-        System.out.printf("Площадь поверхности параллелепипеда равна %.0f м2 %n", s);
+        System.out.printf("Площадь поверхности параллелепипеда с длиной %d м," +
+                "шириной %d м, высотой %d м,%nсгенерированными случайно в диапазоне 0..10" +
+                " равна %.0f м2 %n", length, width, height, s);
         if ((width > height)) {
             System.out.println("Ширина больше высоты");
         } else {
