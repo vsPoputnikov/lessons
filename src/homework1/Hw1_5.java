@@ -1,7 +1,8 @@
 package homework1;
 
 public class Hw1_5 {
-    public static void main(String[] args) {
+    public static void res() {
+        System.out.printf("Задание 5.%n");
         double a,b,c,d,x1,x2;
         a = 1;
         b = 2;
