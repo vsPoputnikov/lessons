@@ -5,5 +5,6 @@ public class Hw2_2 {
         for(int i=18; i>=0;i--){
             System.out.printf(" "+i*5);
         }
+        System.out.println();
     }
 }

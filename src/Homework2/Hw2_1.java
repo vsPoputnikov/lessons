@@ -19,7 +19,7 @@ public class Hw2_1 {
                 b = buff;
             }
         }
-        System.out.printf("%d %d %d",a,b,c);
+        System.out.printf("%d %d %d %n",a,b,c);
     }
 
 }
