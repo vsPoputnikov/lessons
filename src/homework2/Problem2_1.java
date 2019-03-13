@@ -1,8 +1,8 @@
-package Homework2;
+package homework2;
 
 import java.util.Scanner;
 
-public class Hw2_1 {
+public class Problem2_1 {
     public static void res() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите числа для упорядочивания");

@@ -2,7 +2,7 @@ package homework1;
 
 import java.io.PrintStream;
 
-public class Hw1_2 {
+public class Problem1_2 {
     public static void res() {
         double s, length, width;
         s = 10; // Площадь в сотках

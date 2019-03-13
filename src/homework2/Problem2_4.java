@@ -1,8 +1,8 @@
-package Homework2;
+package homework2;
 
 import java.util.Scanner;
 
-public class Hw2_4 {
+public class Problem2_4 {
     public static void res(){
         Scanner in = new Scanner(System.in);
         System.out.println("Введите натуральное число");

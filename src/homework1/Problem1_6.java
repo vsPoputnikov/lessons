@@ -2,7 +2,7 @@ package homework1;
 
 import java.util.Random;
 
-public class Hw1_6 {
+public class Problem1_6 {
     public static void res() {
         final Random random = new Random();
         int x, a,b;

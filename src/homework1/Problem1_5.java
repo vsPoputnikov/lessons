@@ -1,6 +1,6 @@
 package homework1;
 
-public class Hw1_5 {
+public class Problem1_5 {
     public static void res() {
         System.out.printf("Задание 5.%n");
         double a,b,c,d,x1,x2;

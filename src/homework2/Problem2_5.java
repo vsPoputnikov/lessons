@@ -1,6 +1,6 @@
-package Homework2;
+package homework2;
 
-public class Hw2_5 {
+public class Problem2_5 {
     public static void res(){
         int f1=1;
         int f2=f1;

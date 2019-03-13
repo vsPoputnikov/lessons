@@ -1,6 +1,6 @@
-package Homework2;
+package homework2;
 
-public class Hw2_7 {
+public class Problem2_7 {
     public static void res(){
         int count = 0;
         for(int i= 0; i<24; i++){

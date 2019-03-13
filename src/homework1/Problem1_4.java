@@ -2,7 +2,7 @@ package homework1;
 
 import java.util.Random;
 
-public class Hw1_4 {
+public class Problem1_4 {
     public static void res() {
         final Random random = new Random();
         double n,m, ans;
