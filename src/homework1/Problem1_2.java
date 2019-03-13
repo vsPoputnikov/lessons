@@ -3,7 +3,7 @@ package homework1;
 import java.io.PrintStream;
 
 public class Problem1_2 {
-    public static void res() {
+    public static void solve() {
         double s, length, width;
         s = 10; // Площадь в сотках
         length = 25; // Длина грядки

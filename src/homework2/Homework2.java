@@ -2,14 +2,14 @@ package homework2;
 
 public class Homework2 {
     public static void main(String[] args) {
-       Problem2_1.res();
-       Problem2_2.res();
-       Problem2_3.res();
-       Problem2_4.res();
-       Problem2_5.res();
-       Problem2_6.res();
-       Problem2_7.res();
-       Problem2_8.res();
-       Problem2_9.res();
+       Problem2_1.solve();
+       Problem2_2.solve();
+       Problem2_3.solve();
+       Problem2_4.solve();
+       Problem2_5.solve();
+       Problem2_6.solve();
+       Problem2_7.solve();
+       Problem2_8.solve();
+       Problem2_9.solve();
     }
 }

@@ -1,7 +1,7 @@
 package homework2;
 
 public class Problem2_5 {
-    public static void res(){
+    public static void solve(){
         int f1=1;
         int f2=f1;
         int buff;

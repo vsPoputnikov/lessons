@@ -1,7 +1,7 @@
 package homework2;
 
 public class Problem2_6 {
-    public static void res(){
+    public static void solve(){
         int count = 0;
         for(int i=1;i<1000000;i++){
             int a = i%10 + (i/10)%10 + (i/100)%10;

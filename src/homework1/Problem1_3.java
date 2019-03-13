@@ -1,7 +1,7 @@
 package homework1;
 
 public class Problem1_3 {
-    public static void res() {
+    public static void solve() {
         int s1,s2; // Площади овалов
         s1 = 15;
         s2 = 600;

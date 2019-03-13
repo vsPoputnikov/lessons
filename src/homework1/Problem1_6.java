@@ -3,7 +3,7 @@ package homework1;
 import java.util.Random;
 
 public class Problem1_6 {
-    public static void res() {
+    public static void solve() {
         final Random random = new Random();
         int x, a,b;
         x = random.nextInt(900)+100;

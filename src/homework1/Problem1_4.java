@@ -3,7 +3,7 @@ package homework1;
 import java.util.Random;
 
 public class Problem1_4 {
-    public static void res() {
+    public static void solve() {
         final Random random = new Random();
         double n,m, ans;
         n = random.nextInt(2000)/100d;

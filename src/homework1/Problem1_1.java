@@ -3,7 +3,7 @@ package homework1;
 import java.util.Random;
 
 public class Problem1_1 {
-    public static void res() {
+    public static void solve() {
         final Random random = new Random();
         int length, width, height; // Три измерения прямоугольного параллелограмма
         length = random.nextInt(10)+1;//длина

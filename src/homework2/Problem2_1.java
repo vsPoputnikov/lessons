@@ -3,7 +3,7 @@ package homework2;
 import java.util.Scanner;
 
 public class Problem2_1 {
-    public static void res() {
+    public static void solve() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите числа для упорядочивания");
         int a = in.nextInt(), b = in.nextInt(), c = in.nextInt(), buff;

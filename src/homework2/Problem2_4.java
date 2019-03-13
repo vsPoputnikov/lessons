@@ -3,7 +3,7 @@ package homework2;
 import java.util.Scanner;
 
 public class Problem2_4 {
-    public static void res(){
+    public static void solve(){
         Scanner in = new Scanner(System.in);
         System.out.println("Введите натуральное число");
         int n = in.nextInt();
