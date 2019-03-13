@@ -1,6 +1,6 @@
 package homework2;
 
-public class HomeWork2 {
+public class Homework2 {
     public static void main(String[] args) {
        Problem2_1.res();
        Problem2_2.res();
