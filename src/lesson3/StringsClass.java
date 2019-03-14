@@ -27,7 +27,7 @@ public class StringsClass {
         String string6 = "Str 2";
         String string7 = string5 + string6;
         String string8 = "Begin";
-        for (int i = 0; i <3 ; i++) {
+        for (int i = 0; i < 3; i++) {
             string8 += " iteration"; // Каждый раз создаётся новый объект. не рекомендуется
         }
         System.out.println(string8);
@@ -37,9 +37,9 @@ public class StringsClass {
         String string9 = "Begin";
         StringBuilder stringBuilder1 = new StringBuilder();
         stringBuilder1.append(string9);
-        for (int i = 0; i <3 ; i++) {
+        for (int i = 0; i < 3; i++) {
             stringBuilder1.append(" iteration").append(i)
-                            .append("it "); // Каждый раз создаётся новый объект. не рекомендуется
+                    .append("it "); // Каждый раз создаётся новый объект. не рекомендуется
         }
         string9 = stringBuilder1.toString();
         System.out.println(string9);
@@ -47,7 +47,7 @@ public class StringsClass {
 
         // Методы работы со строками
         string9.substring(2);
-        System.out.println(string9.substring(2,4));
+        System.out.println(string9.substring(2, 4));
         System.out.println(Arrays.toString(string9.split(""))); // разбивает строку на массив строк по регулярному выражению
         System.out.println(string9.trim());// удаляет пробелы в начале и конце
         string9.replaceAll("", "new str");

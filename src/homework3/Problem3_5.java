@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Problem3_5 {
     public static void solve() {
-        Scanner in = new Scanner(System.in);
+        Scanner in = new Scanner(System.in).useDelimiter("\\n");
         System.out.println("Введите исходную строку");
         StringBuilder stringBuilder = new StringBuilder(in.next());
         System.out.println(stringBuilder.toString());
