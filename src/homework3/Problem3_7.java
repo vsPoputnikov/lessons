@@ -21,12 +21,12 @@ public class Problem3_7 {
 //        System.out.println(myList.toString());
         Scanner in = new Scanner(System.in).useDelimiter("\\n");
         System.out.println("Введите строку для обработки");
-        String[] s = in.next().trim().split("\\D+");
+        String[] s = in.next().replaceAll("\\D+", " ").trim().split(" ");
         int[] intArr = new int[s.length];
         for (int i = 0; i < s.length; i++) {
             intArr[i] = Integer.valueOf(s[i]);
             System.out.println(intArr[i]);
         }
     }
-
 }
+
