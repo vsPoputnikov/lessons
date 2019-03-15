@@ -1,4 +1,4 @@
-package com.companyName.lessons;
+package lesson4.com.company.lessons;
 
 public class Author {
     private String name;
