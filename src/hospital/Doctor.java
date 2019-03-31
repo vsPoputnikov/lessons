@@ -5,7 +5,7 @@ public class Doctor {
     String login;
 
     public void getReg(){
-        
+
     }
 }
 
