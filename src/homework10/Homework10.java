@@ -7,13 +7,12 @@ import java.util.*;
 
 public class Homework10 {
     public static void main(String[] args) throws IOException {
+        // Чтение файлов
         ClassLoader loader = Homework10.class.getClassLoader();
         File file = new File(loader.getResource("wp.txt").getFile());
-
         List<String> lines = Files.readAllLines(file.toPath());
 
         File file2 = new File(loader.getResource("articles.txt").getFile());
-
         List<String> articles = Files.readAllLines(file2.toPath());
 
         List<String> words = new ArrayList<>();
@@ -114,7 +113,7 @@ public class Homework10 {
                     j--;
                 }
             }
-            charSet.put(ch, (count/size));
+            charSet.put(ch, (count/size)*100);
         }
 
         System.out.println(charSet);
