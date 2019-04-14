@@ -26,10 +26,11 @@ public class Problem11_2 {
     }
 
     public static void glueFile(String[] files,String outF) throws IOException{
+        Vector<InputStream> sequence = new Vector<>();
         try(FileOutputStream fileOutputStream =
                     new FileOutputStream(outF);
             BufferedOutputStream outputStream = new BufferedOutputStream(fileOutputStream)){
-            Vector<InputStream> sequence = new Vector<>();
+
             for (String file: files){
                 InputStream inputStream = new FileInputStream(file);
                 sequence.add(inputStream);
@@ -42,12 +43,14 @@ public class Problem11_2 {
                System.out.println(len);
                outputStream.write(buf,0,len);
             }
-           for(InputStream inStream: sequence){
-               inStream.close();
-           }
 
 
 
+
+        } finally {
+            for(InputStream inStream: sequence){
+                inStream.close();
+            }
         }
     }
 

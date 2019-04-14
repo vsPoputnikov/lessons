@@ -15,9 +15,11 @@ public class Problem11_1 {
 
             System.out.println(inputStream.available());
             byte[] buffer = new byte[4];
+            byte code = 'a';
             int len, count=0;
             while((len = inputStream.read(buffer))>0){
-                fileOutputStream.write(buffer,0,len);
+
+                outputStream.write(buffer,0,len);
                 count+=len;
             }
             System.out.println(count);

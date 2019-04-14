@@ -1,7 +1,11 @@
 package homework4;
 
+import java.util.Iterator;
+
 public class OneWayList {
     private Nod firstNod;
+
+
 
     public void remove() {
         Nod iter = this.getFirstNod();

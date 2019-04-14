@@ -10,9 +10,9 @@ public class Problem1_1 {
         width = random.nextInt(10)+1;//ширина
         height = random.nextInt(10)+1;//высота
         double s = (length*width + length*height + width*height)*2; // Площадь поверхности
-        System.out.printf("Задание 1.%nПлощадь поверхности параллелепипеда с длиной %d м," +
-                "шириной %d м, высотой %d м,%nсгенерированными случайно в диапазоне 0..10" +
-                " равна %.0f м2 %n", length, width, height, s);
+        System.out.println("Задание 1.\n Площадь поверхности параллелепипеда с длиной "+length+" м," +
+                "шириной "+width+" м, высотой "+height+" м,\n сгенерированными случайно в диапазоне 0..10" +
+                " равна "+s+" м2");
         if ((width > height)) {
             System.out.println("Ширина больше высоты");
         } else {

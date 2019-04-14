@@ -4,7 +4,7 @@ public class Book {
     // Свойства
     private int pageCount;
     private String title;
-
+    private Author author;
 
     Book(Author author){
         this.author = author;
@@ -17,7 +17,7 @@ public class Book {
         this.author = author;
     }
 
-    private Author author;
+
     // default constructor
     public Book() {
     }
