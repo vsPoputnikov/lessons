@@ -1,4 +1,4 @@
-package lesson14;
+package homework14;
 
 public enum FitnessServiceEnumeration {
     GYM, GROUP, POOL;

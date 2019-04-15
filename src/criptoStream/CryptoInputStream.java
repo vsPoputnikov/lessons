@@ -6,26 +6,35 @@ import java.io.InputStream;
 
 public class CryptoInputStream extends FilterInputStream {
     byte[] key;
-    private int currentPosition;
+    private int currentKeyPosition;
     public CryptoInputStream(InputStream in, byte[] key) {
         super(in);
         this.key = key;
+        currentKeyPosition=0;
     }
 
     @Override
     public int read() throws IOException {
-        return super.read();
+        byte b = (byte)super.read();
+        b= (byte) (b^key[currentKeyPosition]);
+        currentKeyPosition=(currentKeyPosition+1)%(key.length);
+        return b;
+
     }
 
     @Override
     public int read(byte[] b) throws IOException {
-        int data = super.read(b);
-        //
-        return data;
+        int r = super.read(b);
+        for (int i = 0; i <b.length ; i++) {
+            b[i]=(byte)(b[i]^key[currentKeyPosition]);
+            currentKeyPosition=(currentKeyPosition+1)%(key.length);
+        }
+
+
+
+
+        return r;
     }
 
-    @Override
-    public int read(byte[] b, int off, int len) throws IOException {
-        return super.read(b, off, len);
-    }
+
 }
