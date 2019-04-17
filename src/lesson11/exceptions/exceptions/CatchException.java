@@ -35,7 +35,7 @@ public class CatchException {
                 arr[23]=12;
             }
         } catch (ClassCastException e){
-            System.out.println("all exceptions " + e.getMessage());
+            System.out.println("all exceptions " + e.getText());
             e.printStackTrace();
         }*/
 

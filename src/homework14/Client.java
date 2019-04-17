@@ -17,7 +17,7 @@ public class Client {
 
     @Override
     public String toString() {
-        return "Client{" +
+        return "MessageClient{" +
                 "secondName='" + secondName + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", yearOfBirth=" + yearOfBirth +
