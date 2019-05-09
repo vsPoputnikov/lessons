@@ -54,10 +54,13 @@ public class MessageServer {
                     message = connection.readMessage();
                 } catch (IOException e) {
                     e.printStackTrace();
+                    System.out.println("on fire");
                 } catch (ClassNotFoundException e) {
+
                     e.printStackTrace();
                 }
                 if (message.getTo().equals("server")) {
+
                     switch (message.getText()) {
                         case "login":
                             if(!userConnections.containsKey(message.getFrom())){
@@ -72,6 +75,7 @@ public class MessageServer {
 
                     }
                 } else {
+                    System.out.println("on fire 2");
                     messages.add(message);
                 }
             }

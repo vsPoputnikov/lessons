@@ -97,4 +97,6 @@ public class MessageClient {
     public void setName(String name) {
         this.name = name;
     }
+
+
 }

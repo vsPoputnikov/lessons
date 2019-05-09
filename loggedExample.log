@@ -1,0 +1,6 @@
+[2019-05-06 19:41:36]
+[logging.LoggedExample.main]
+ - Программа запущена с аргументами: []
+[2019-05-06 19:41:36]
+[logging.LoggedExample.main]
+ - Fatal Error: / by zero
